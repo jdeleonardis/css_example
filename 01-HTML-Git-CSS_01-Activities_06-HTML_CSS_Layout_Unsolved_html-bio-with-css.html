@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <style>
+    body { 
+          background-color: #efeee7;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #333333;
+          margin: 0;
+          padding: 0;
+          line-height: 1.5;
+    }
+
+    header { 
+      background-color: #333333;
+      margin: 25px;
+    }
+
+    h1 {
+        color: #eee;
+        font-size: 28px;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+
+    h2 {
+        font-size: 24px;        
+    }
+
+    a {
+      color: #d21034;
+    }
+
+    .container {
+      width: 900px;
+      margin: 0 auto;
+    }
+
+    #main-bio,
+    #contact-info,
+    #bio-image {
+      float: left;
+    }
+
+    #bio-image {
+      width: 200px;
+      margin-right: 30px;
+    }
+
+    #main-bio {
+      width: 70%;
+    }
+
+    #contact-info {
+      width: 30%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Your Name</h2>
+
+      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
+
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
+</html>
